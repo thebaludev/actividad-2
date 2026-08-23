@@ -10,7 +10,7 @@ El stack usado en el proyecto es basado en NodeJS v24.19.0 LTS. Para el frontend
 La instalación del proyecto consta de los siguientes comandos:
 
 ```bash
-npm install
+npm install --legacy-peer-deps
 npm run dev
 ```
 
