@@ -19,10 +19,10 @@ export const mascotasSample: Mascota[] = [
     aptoNinos: true,
     estado: 'disponible',
     fechaIngreso: '2026-05-12',
-    imagenPrincipal: 'https://picsum.photos/seed/pascal/480/360',
+    imagenPrincipal: 'https://placedog.net/1000?id=3',
     imagenes: [
-      'https://picsum.photos/seed/pascal-2/480/360',
-      'https://picsum.photos/seed/pascal-3/480/360',
+      'https://placedog.net/1000?id=39',
+      'https://placedog.net/1000?id=130',
     ],
   },
   {
@@ -42,8 +42,8 @@ export const mascotasSample: Mascota[] = [
     aptoNinos: true,
     estado: 'disponible',
     fechaIngreso: '2026-06-20',
-    imagenPrincipal: 'https://picsum.photos/seed/luna/480/360',
-    imagenes: ['https://picsum.photos/seed/luna-2/480/360'],
+    imagenPrincipal: 'https://placecats.com/bella/480/360',
+    imagenes: ['https://placecats.com/neo/480/360'],
   },
   {
     id: 3,
@@ -62,7 +62,7 @@ export const mascotasSample: Mascota[] = [
     aptoNinos: true,
     estado: 'en_proceso',
     fechaIngreso: '2026-03-02',
-    imagenPrincipal: 'https://picsum.photos/seed/rocky/480/360',
+    imagenPrincipal: 'https://placedog.net/1000?id=71',
     imagenes: [],
   },
   {
@@ -81,7 +81,7 @@ export const mascotasSample: Mascota[] = [
     aptoNinos: false,
     estado: 'disponible',
     fechaIngreso: '2026-07-01',
-    imagenPrincipal: 'https://picsum.photos/seed/mia/480/360',
+    imagenPrincipal: 'https://placecats.com/louie/480/360',
     imagenes: [],
   },
   {
@@ -101,7 +101,7 @@ export const mascotasSample: Mascota[] = [
     aptoNinos: true,
     estado: 'disponible',
     fechaIngreso: '2026-08-05',
-    imagenPrincipal: 'https://picsum.photos/seed/copito/480/360',
+    imagenPrincipal: 'https://images.unsplash.com/photo-1480554840075-72cbdabbf689?ixid=M3w4MjcwNjd8MHwxfHNlYXJjaHwxMjZ8fGFuaW1hbHN8ZW58MHx8fHwxNzg3NDY1Njg1fDA&ixlib=rb-4.1.0&fit=max&q=80',
     imagenes: [],
   },
   {
@@ -120,7 +120,7 @@ export const mascotasSample: Mascota[] = [
     aptoNinos: true,
     estado: 'adoptado',
     fechaIngreso: '2025-11-10',
-    imagenPrincipal: 'https://picsum.photos/seed/toby/480/360',
+    imagenPrincipal: 'https://placedog.net/1000?id=73',
     imagenes: [],
   },
 ]
