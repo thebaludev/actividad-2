@@ -1,48 +1,35 @@
-# meetyourpet
+# Meet Your Pet - Directorio de mascotas en adopción
 
-This template should help get you started developing with Vue 3 in Vite.
+Proyecto de la actividad 2 Creando con patrón de arquitectura. Front-end en Vue 3
+(Composition API) + Vite, organizado en capas.
 
-## Recommended IDE Setup
+## Ejecución
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+El stack usado en el proyecto es basado en NodeJS v24.19.0 LTS. Para el frontend elegí Vue 3 usando Composition API ya que he tenido experiencia tanto en empleos como en proyectos personales y lo considero muy práctico y robusto para cualquier proyecto. Sumado a Vue estoy usando para los estilos Tailwind CSS porque igualmente tengo una familiaridad de varios años usandolo en proyectos personales y formales, es muy rápido realizar diseños con esta librería, y por ultimo estoy usando Typescript para Vue ya que es la forma en como mejor manejo el framework, es robusto y permite mantener una estructura más estricta del código.
 
-## Recommended Browser Setup
+La instalación del proyecto consta de los siguientes comandos:
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Arquitectura
 
-```sh
-npm run build
+```
+src/
+├── pages/          # presentación (vistas)
+├── components/     # presentación (componentes reutilizables)
+├── composables/     # lógica de negocio
+├── services/        # acceso a datos / repositorio
+├── data/            # datos de muestra temporales, simula los "datos" por el momento
+├── router/          # definición de rutas
+└── types/           # modelos TypeScript del dominio
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+Las vistas se leen directamente de `src/data/mascotas.sample.ts`. Cuando se desarrolle la capa de acceso a datos (`services/mascotas.repository.ts`), esa
+capa expondrá las mismas funciones (`getMascotas()`, `getMascotaById(id)`, etc.) pero contra la API real.
 
-```sh
-npm run lint
-```
+## Modelo de datos
+
+Profesor el modelado de datos se encuentra en la carpeta `course/mer/MER-MeetYourPet.png` donde está definida el diagrama generado desde la plataforma dbdiagram que considero muy práctica pra este proceso ya que puedo definir el diagrama en su lenguajes .dbml y posteriormente permite exportar hacia PostgreSQL, MySQL o SQL Server.
