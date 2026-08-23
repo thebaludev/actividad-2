@@ -7,7 +7,7 @@ Proyecto de la actividad 2 Creando con patrón de arquitectura. Front-end en Vue
 
 Para facilitar la visualización del proyecto, fue desplegado en el servicio gratuito de la plataforma Netlify. El enlace de acceso es el siguiente:
 
-[Meet Your Pet](https://meetyourpet.netlify.app)
+<a href="https://meetyourpet.netlify.app" target="_blank">Meet Your Pet</a>
 
 ## Ejecución
 
