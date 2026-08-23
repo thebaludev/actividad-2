@@ -1,11 +1,15 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AppHeader from './components/AppHeader.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="flex min-h-screen flex-col">
+    <AppHeader />
+    <main class="flex-1">
+      <RouterView />
+    </main>
+    <footer class="border-t border-bosque-100 py-6 text-center text-sm text-carbon-600">
+      Proyecto universidad - Directorio de mascotas en adopción
+    </footer>
+  </div>
 </template>
-
-<style scoped></style>
