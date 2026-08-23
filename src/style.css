@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Inter", serif;
+  --font-body: "Inter", sans-serif;
+
+  --color-bosque-50: #f3f6f3;
+  --color-bosque-100: #dce6df;
+  --color-bosque-500: #3f6656;
+  --color-bosque-600: #345449;
+  --color-bosque-900: #1b2e27;
+
+  --color-arena-50: #fbf8f2;
+  --color-arena-100: #f2ebdd;
+
+  --color-ambar-400: #d99a4e;
+  --color-ambar-600: #b87a2e;
+
+  --color-carbon-900: #242420;
+  --color-carbon-600: #6b6a63;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-arena-50);
+  color: var(--color-carbon-900);
+}
