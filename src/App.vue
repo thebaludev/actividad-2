@@ -9,7 +9,7 @@ import AppHeader from './components/AppHeader.vue'
       <RouterView />
     </main>
     <footer class="border-t border-bosque-100 py-6 text-center text-sm text-carbon-600">
-      Proyecto universidad - Directorio de mascotas en adopción
+      Proyecto Actividad 2 - Directorio de mascotas en adopción
     </footer>
   </div>
 </template>
