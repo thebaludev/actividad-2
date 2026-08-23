@@ -3,6 +3,12 @@
 Proyecto de la actividad 2 Creando con patrón de arquitectura. Front-end en Vue 3
 (Composition API) + Vite, organizado en capas.
 
+## Despliegue
+
+Para facilitar la visualización del proyecto, fue desplegado en el servicio gratuito de la plataforma Netlify. El enlace de acceso es el siguiente:
+
+[Meet Your Pet](https://meetyourpet.netlify.app)
+
 ## Ejecución
 
 El stack usado en el proyecto es basado en NodeJS v24.19.0 LTS. Para el frontend elegí Vue 3 usando Composition API ya que he tenido experiencia tanto en empleos como en proyectos personales y lo considero muy práctico y robusto para cualquier proyecto. Sumado a Vue estoy usando para los estilos Tailwind CSS porque igualmente tengo una familiaridad de varios años usandolo en proyectos personales y formales, es muy rápido realizar diseños con esta librería, y por ultimo estoy usando Typescript para Vue ya que es la forma en como mejor manejo el framework, es robusto y permite mantener una estructura más estricta del código.
